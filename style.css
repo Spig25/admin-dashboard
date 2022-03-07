@@ -45,6 +45,13 @@
     align-items: center;
 }
 
+input {
+    border-radius: 20px;
+    padding: 4px 15px;
+    font-size: 1.3rem;
+    background-color: #e3e7ee;
+}
+
 .header-lower {
     display: grid;
     grid-template-columns: 100px 1fr 100px 100px 100px;
@@ -52,12 +59,34 @@
     align-items: center;
 }
 
+.header-lower>button {
+    background-color: #0F766E;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 24px;
+    border: #0F766E;
+}
+
+.greeting {
+    display: grid;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.greeting-upper {
+    font-size: .8rem;
+}
+
+.greeting-lower {
+    font-size: 1.6rem;
+}
+
 .main {
     display: grid;
     grid-template-columns: 1fr 250px;
     grid-template-rows: 450px 300px 1fr;
     box-shadow: inset 0px 4px 6px 0px rgb(0 0 0 / 20%);
-    background-color: #d8dce2;
+    background-color: #e3e7ee;
     padding: 25px;
     gap: 20px;
 }
@@ -97,7 +126,7 @@
     grid-column: 1 / -1;
 }
 
-.card>svg {
+svg {
     place-self: center;
 }
 
