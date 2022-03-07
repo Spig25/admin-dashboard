@@ -52,4 +52,39 @@
 
 .main {
     display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-rows: auto auto;
+}
+
+.projects {
+    grid-row: 1 / -1;
+    display: grid;
+    grid-template-rows: 20px 1fr;
+}
+
+.proj-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.card {
+    height: 150px;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: 20px 1fr;
+}
+
+.ann-card {
+    display: grid;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 20px 1fr;
+}
+
+.tren-card {
+    display: grid;
 }
